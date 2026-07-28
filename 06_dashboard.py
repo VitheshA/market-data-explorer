@@ -62,6 +62,6 @@ axes[1, 1].tick_params(axis='x', rotation=45)
 fig.suptitle(f"{tick} Performance & Risk Analysis", fontsize=16, fontweight='bold')
 plt.tight_layout()
 
-os.makedirs('output', exist_ok=True)  # so a fresh clone doesn't crash here
+os.makedirs('output', exist_ok=True)
 fig.savefig(f"output/{tick}_dashboard.png", dpi=150, bbox_inches='tight')
 plt.show()
