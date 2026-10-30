@@ -4,6 +4,10 @@ Six small Python scripts for pulling, analyzing, and charting stock market data.
 
 ![dashboard](output/AAPL_dashboard.png)
 
+## Interactive extension
+
+[Stock Explorer](interactive/README.md) turns the four-panel ticker chart from Module 06 into a browser-based Streamlit interface. Source code is public; the app is not hosted.
+
 ## Scripts
 
 - `01_sp500_census.py` — answers questions about the S&P 500 constituents table and saves a cleaned copy
